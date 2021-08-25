@@ -265,7 +265,7 @@ def main():
         try:
             fp= open(malware)
             fp.close()
-            key="c9136687a98f2cdf5c0cb9af88aea9b86e4f2b2377181a993ce46cd557c3877b" # <= Here Enter Your VT API Key between double quotes
+            key="" # <= Here Enter Your VT API Key between double quotes
             # define the name of the directory to be created
             path = os.getcwd() +'/reports/' + malware
             try:
